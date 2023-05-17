@@ -1,0 +1,2512 @@
+# depslib dependency file v1.0
+1677889778 source:c:\users\bbbb\desktop\ppkeitk\bevprog2\graphicskit2023 - copy\graphicslib\graphics.cpp
+	"graphics.hpp"
+	<SDL2/SDL.h>
+	<SDL2/SDL_ttf.h>
+	<cstdlib>
+	<algorithm>
+	<map>
+	<iostream>
+	"char2.h"
+	"keytbl.h"
+
+1677889778 c:\users\bbbb\desktop\ppkeitk\bevprog2\graphicskit2023 - copy\graphicslib\graphics.hpp
+	<string>
+	<vector>
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\graphicskit2023 - copy\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"SDL_locale.h"
+	"SDL_misc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\graphicskit2023 - copy\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\graphicskit2023 - copy\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\graphicskit2023 - copy\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+	<sdkddkver.h>
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\graphicskit2023 - copy\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\graphicskit2023 - copy\include\sdl2\begin_code.h
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\graphicskit2023 - copy\include\sdl2\close_code.h
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\graphicskit2023 - copy\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\graphicskit2023 - copy\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\graphicskit2023 - copy\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\graphicskit2023 - copy\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\graphicskit2023 - copy\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\graphicskit2023 - copy\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\graphicskit2023 - copy\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\graphicskit2023 - copy\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\graphicskit2023 - copy\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\graphicskit2023 - copy\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\graphicskit2023 - copy\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\graphicskit2023 - copy\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\graphicskit2023 - copy\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\graphicskit2023 - copy\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\graphicskit2023 - copy\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\graphicskit2023 - copy\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\graphicskit2023 - copy\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\graphicskit2023 - copy\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\graphicskit2023 - copy\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\graphicskit2023 - copy\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\graphicskit2023 - copy\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\graphicskit2023 - copy\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\graphicskit2023 - copy\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\graphicskit2023 - copy\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\graphicskit2023 - copy\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\graphicskit2023 - copy\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\graphicskit2023 - copy\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\graphicskit2023 - copy\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\graphicskit2023 - copy\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\graphicskit2023 - copy\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\graphicskit2023 - copy\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\graphicskit2023 - copy\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\graphicskit2023 - copy\include\sdl2\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\graphicskit2023 - copy\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\graphicskit2023 - copy\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\graphicskit2023 - copy\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\graphicskit2023 - copy\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\graphicskit2023 - copy\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\graphicskit2023 - copy\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\graphicskit2023 - copy\include\sdl2\sdl_locale.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\graphicskit2023 - copy\include\sdl2\sdl_misc.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1547325890 c:\users\bbbb\desktop\ppkeitk\bevprog2\graphicskit2023 - copy\include\sdl2\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1677889778 c:\users\bbbb\desktop\ppkeitk\bevprog2\graphicskit2023 - copy\graphicslib\char2.h
+
+1677889778 c:\users\bbbb\desktop\ppkeitk\bevprog2\graphicskit2023 - copy\graphicslib\keytbl.h
+
+1678627978 source:c:\users\bbbb\desktop\ppkeitk\bevprog2\graphicskit2023 - copy\main.cpp
+	<graphics.hpp>
+	<iostream>
+	<math.h>
+
+1677889778 c:\users\bbbb\desktop\ppkeitk\bevprog2\graphicskit2023 - copy\include\graphics.hpp
+	<string>
+	<vector>
+
+1677889778 source:c:\users\bbbb\desktop\ppkeitk\bevprog2\cross\graphicslib\graphics.cpp
+	"graphics.hpp"
+	<SDL2/SDL.h>
+	<SDL2/SDL_ttf.h>
+	<cstdlib>
+	<algorithm>
+	<map>
+	<iostream>
+	"char2.h"
+	"keytbl.h"
+
+1677889778 c:\users\bbbb\desktop\ppkeitk\bevprog2\cross\graphicslib\graphics.hpp
+	<string>
+	<vector>
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\cross\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"SDL_locale.h"
+	"SDL_misc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\cross\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\cross\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\cross\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+	<sdkddkver.h>
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\cross\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\cross\include\sdl2\begin_code.h
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\cross\include\sdl2\close_code.h
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\cross\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\cross\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\cross\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\cross\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\cross\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\cross\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\cross\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\cross\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\cross\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\cross\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\cross\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\cross\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\cross\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\cross\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\cross\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\cross\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\cross\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\cross\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\cross\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\cross\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\cross\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\cross\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\cross\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\cross\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\cross\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\cross\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\cross\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\cross\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\cross\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\cross\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\cross\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\cross\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\cross\include\sdl2\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\cross\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\cross\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\cross\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\cross\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\cross\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\cross\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\cross\include\sdl2\sdl_locale.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\cross\include\sdl2\sdl_misc.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1547325890 c:\users\bbbb\desktop\ppkeitk\bevprog2\cross\include\sdl2\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1677889778 c:\users\bbbb\desktop\ppkeitk\bevprog2\cross\graphicslib\char2.h
+
+1677889778 c:\users\bbbb\desktop\ppkeitk\bevprog2\cross\graphicslib\keytbl.h
+
+1678709863 source:c:\users\bbbb\desktop\ppkeitk\bevprog2\cross\main.cpp
+	<graphics.hpp>
+	<iostream>
+	<math.h>
+
+1677889778 c:\users\bbbb\desktop\ppkeitk\bevprog2\cross\include\graphics.hpp
+	<string>
+	<vector>
+
+1677889778 source:c:\users\bbbb\desktop\ppkeitk\bevprog2\hopehely1\graphicslib\graphics.cpp
+	"graphics.hpp"
+	<SDL2/SDL.h>
+	<SDL2/SDL_ttf.h>
+	<cstdlib>
+	<algorithm>
+	<map>
+	<iostream>
+	"char2.h"
+	"keytbl.h"
+
+1677889778 c:\users\bbbb\desktop\ppkeitk\bevprog2\hopehely1\graphicslib\graphics.hpp
+	<string>
+	<vector>
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\hopehely1\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"SDL_locale.h"
+	"SDL_misc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\hopehely1\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\hopehely1\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\hopehely1\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+	<sdkddkver.h>
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\hopehely1\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\hopehely1\include\sdl2\begin_code.h
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\hopehely1\include\sdl2\close_code.h
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\hopehely1\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\hopehely1\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\hopehely1\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\hopehely1\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\hopehely1\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\hopehely1\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\hopehely1\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\hopehely1\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\hopehely1\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\hopehely1\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\hopehely1\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\hopehely1\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\hopehely1\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\hopehely1\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\hopehely1\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\hopehely1\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\hopehely1\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\hopehely1\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\hopehely1\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\hopehely1\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\hopehely1\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\hopehely1\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\hopehely1\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\hopehely1\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\hopehely1\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\hopehely1\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\hopehely1\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\hopehely1\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\hopehely1\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\hopehely1\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\hopehely1\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\hopehely1\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\hopehely1\include\sdl2\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\hopehely1\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\hopehely1\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\hopehely1\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\hopehely1\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\hopehely1\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\hopehely1\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\hopehely1\include\sdl2\sdl_locale.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\bbbb\desktop\ppkeitk\bevprog2\hopehely1\include\sdl2\sdl_misc.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1547325890 c:\users\bbbb\desktop\ppkeitk\bevprog2\hopehely1\include\sdl2\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1677889778 c:\users\bbbb\desktop\ppkeitk\bevprog2\hopehely1\graphicslib\char2.h
+
+1677889778 c:\users\bbbb\desktop\ppkeitk\bevprog2\hopehely1\graphicslib\keytbl.h
+
+1678717850 source:c:\users\bbbb\desktop\ppkeitk\bevprog2\hopehely1\main.cpp
+	"graphics.hpp"
+	<iostream>
+	<vector>
+	<cmath>
+
+1677889778 c:\users\bbbb\desktop\ppkeitk\bevprog2\hopehely1\include\graphics.hpp
+	<string>
+	<vector>
+
+1677893378 source:c:\users\bbbb\desktop\ppkeitk\bevprog2\particlesystem\graphicslib\graphics.cpp
+	"graphics.hpp"
+	<SDL2/SDL.h>
+	<SDL2/SDL_ttf.h>
+	<cstdlib>
+	<algorithm>
+	<map>
+	<iostream>
+	"char2.h"
+	"keytbl.h"
+
+1677893378 c:\users\bbbb\desktop\ppkeitk\bevprog2\particlesystem\graphicslib\graphics.hpp
+	<string>
+	<vector>
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\particlesystem\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"SDL_locale.h"
+	"SDL_misc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\particlesystem\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\particlesystem\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\particlesystem\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+	<sdkddkver.h>
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\particlesystem\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\particlesystem\include\sdl2\begin_code.h
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\particlesystem\include\sdl2\close_code.h
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\particlesystem\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\particlesystem\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\particlesystem\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\particlesystem\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\particlesystem\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\particlesystem\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\particlesystem\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\particlesystem\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\particlesystem\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\particlesystem\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\particlesystem\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\particlesystem\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\particlesystem\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\particlesystem\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\particlesystem\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\particlesystem\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\particlesystem\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\particlesystem\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\particlesystem\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\particlesystem\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\particlesystem\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\particlesystem\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\particlesystem\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\particlesystem\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\particlesystem\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\particlesystem\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\particlesystem\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\particlesystem\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\particlesystem\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\particlesystem\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\particlesystem\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\particlesystem\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\particlesystem\include\sdl2\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\particlesystem\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\particlesystem\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\particlesystem\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\particlesystem\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\particlesystem\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\particlesystem\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\particlesystem\include\sdl2\sdl_locale.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\particlesystem\include\sdl2\sdl_misc.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1547329490 c:\users\bbbb\desktop\ppkeitk\bevprog2\particlesystem\include\sdl2\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1677893378 c:\users\bbbb\desktop\ppkeitk\bevprog2\particlesystem\graphicslib\char2.h
+
+1677893378 c:\users\bbbb\desktop\ppkeitk\bevprog2\particlesystem\graphicslib\keytbl.h
+
+1679316471 source:c:\users\bbbb\desktop\ppkeitk\bevprog2\particlesystem\main.cpp
+	"graphics.hpp"
+	<iostream>
+	<vector>
+	<cmath>
+
+1677893378 c:\users\bbbb\desktop\ppkeitk\bevprog2\particlesystem\include\graphics.hpp
+	<string>
+	<vector>
+
+1677893378 source:c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando2\teljesversion\graphicslib\graphics.cpp
+	"graphics.hpp"
+	<SDL2/SDL.h>
+	<SDL2/SDL_ttf.h>
+	<cstdlib>
+	<algorithm>
+	<map>
+	<iostream>
+	"char2.h"
+	"keytbl.h"
+
+1677893378 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando2\teljesversion\graphicslib\graphics.hpp
+	<string>
+	<vector>
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando2\teljesversion\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"SDL_locale.h"
+	"SDL_misc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando2\teljesversion\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando2\teljesversion\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando2\teljesversion\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+	<sdkddkver.h>
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando2\teljesversion\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando2\teljesversion\include\sdl2\begin_code.h
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando2\teljesversion\include\sdl2\close_code.h
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando2\teljesversion\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando2\teljesversion\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando2\teljesversion\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando2\teljesversion\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando2\teljesversion\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando2\teljesversion\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando2\teljesversion\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando2\teljesversion\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando2\teljesversion\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando2\teljesversion\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando2\teljesversion\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando2\teljesversion\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando2\teljesversion\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando2\teljesversion\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando2\teljesversion\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando2\teljesversion\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando2\teljesversion\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando2\teljesversion\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando2\teljesversion\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando2\teljesversion\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando2\teljesversion\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando2\teljesversion\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando2\teljesversion\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando2\teljesversion\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando2\teljesversion\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando2\teljesversion\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando2\teljesversion\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando2\teljesversion\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando2\teljesversion\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando2\teljesversion\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando2\teljesversion\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando2\teljesversion\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando2\teljesversion\include\sdl2\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando2\teljesversion\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando2\teljesversion\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando2\teljesversion\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando2\teljesversion\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando2\teljesversion\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando2\teljesversion\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando2\teljesversion\include\sdl2\sdl_locale.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando2\teljesversion\include\sdl2\sdl_misc.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1547329490 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando2\teljesversion\include\sdl2\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1677893378 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando2\teljesversion\graphicslib\char2.h
+
+1677893378 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando2\teljesversion\graphicslib\keytbl.h
+
+1682982382 source:c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando2\teljesversion\background.cpp
+	"background.hpp"
+	"widgets.hpp"
+	"graphics.hpp"
+	"iostream"
+
+1682966653 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando2\teljesversion\background.hpp
+	<vector>
+	"widgets.hpp"
+	<fstream>
+
+1683551282 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando2\teljesversion\widgets.hpp
+	"graphics.hpp"
+
+1677893378 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando2\teljesversion\include\graphics.hpp
+	<string>
+	<vector>
+
+1682967027 source:c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando2\teljesversion\counter.cpp
+	"counter.hpp"
+	"graphics.hpp"
+	"iostream"
+
+1682971455 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando2\teljesversion\counter.hpp
+	"widgets.hpp"
+
+1682986248 source:c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando2\teljesversion\dropdownmenu.cpp
+	"Dropdownmenu.hpp"
+	"graphics.hpp"
+	<iostream>
+	<fstream>
+	<vector>
+	<string>
+
+1682980766 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando2\teljesversion\dropdownmenu.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<vector>
+
+1682967043 source:c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando2\teljesversion\widgets.cpp
+	"widgets.hpp"
+	"graphics.hpp"
+	"background.hpp"
+
+1683550463 source:c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando2\teljesversion\main.cpp
+	"graphics.hpp"
+	"widgets.hpp"
+	"counter.hpp"
+	"background.hpp"
+	"dropdownmenu.hpp"
+	"button.h"
+	"iostream"
+
+1682949348 source:c:\users\bbbb\desktop\ppkeitk\bevprog2\04.24\morwidget\application.cpp
+	"application.hpp"
+	"graphics.hpp"
+	"widgets.hpp"
+	<iostream>
+
+1556234814 c:\users\bbbb\desktop\ppkeitk\bevprog2\04.24\morwidget\application.hpp
+	"widgets.hpp"
+	<vector>
+	<string>
+	<fstream>
+
+1556432342 c:\users\bbbb\desktop\ppkeitk\bevprog2\04.24\morwidget\widgets.hpp
+	"graphics.hpp"
+
+1683550249 source:c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando2\teljesversion\button.cpp
+	"button.h"
+	"graphics.hpp"
+	"iostream"
+
+1683548223 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando2\teljesversion\button.h
+	"graphics.hpp"
+	"widgets.hpp"
+
+1677893378 source:c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando3\amõba\teljesversion\graphicslib\graphics.cpp
+	"graphics.hpp"
+	<SDL2/SDL.h>
+	<SDL2/SDL_ttf.h>
+	<cstdlib>
+	<algorithm>
+	<map>
+	<iostream>
+	"char2.h"
+	"keytbl.h"
+
+1677893378 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando3\amõba\teljesversion\graphicslib\graphics.hpp
+	<string>
+	<vector>
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando3\amõba\teljesversion\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"SDL_locale.h"
+	"SDL_misc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando3\amõba\teljesversion\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando3\amõba\teljesversion\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando3\amõba\teljesversion\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+	<sdkddkver.h>
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando3\amõba\teljesversion\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando3\amõba\teljesversion\include\sdl2\begin_code.h
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando3\amõba\teljesversion\include\sdl2\close_code.h
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando3\amõba\teljesversion\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando3\amõba\teljesversion\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando3\amõba\teljesversion\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando3\amõba\teljesversion\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando3\amõba\teljesversion\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando3\amõba\teljesversion\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando3\amõba\teljesversion\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando3\amõba\teljesversion\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando3\amõba\teljesversion\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando3\amõba\teljesversion\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando3\amõba\teljesversion\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando3\amõba\teljesversion\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando3\amõba\teljesversion\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando3\amõba\teljesversion\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando3\amõba\teljesversion\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando3\amõba\teljesversion\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando3\amõba\teljesversion\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando3\amõba\teljesversion\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando3\amõba\teljesversion\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando3\amõba\teljesversion\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando3\amõba\teljesversion\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando3\amõba\teljesversion\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando3\amõba\teljesversion\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando3\amõba\teljesversion\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando3\amõba\teljesversion\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando3\amõba\teljesversion\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando3\amõba\teljesversion\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando3\amõba\teljesversion\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando3\amõba\teljesversion\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando3\amõba\teljesversion\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando3\amõba\teljesversion\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando3\amõba\teljesversion\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando3\amõba\teljesversion\include\sdl2\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando3\amõba\teljesversion\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando3\amõba\teljesversion\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando3\amõba\teljesversion\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando3\amõba\teljesversion\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando3\amõba\teljesversion\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando3\amõba\teljesversion\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando3\amõba\teljesversion\include\sdl2\sdl_locale.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608580088 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando3\amõba\teljesversion\include\sdl2\sdl_misc.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1547329490 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando3\amõba\teljesversion\include\sdl2\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1677893378 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando3\amõba\teljesversion\graphicslib\char2.h
+
+1677893378 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando3\amõba\teljesversion\graphicslib\keytbl.h
+
+1683550463 source:c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando3\amõba\teljesversion\main.cpp
+	"graphics.hpp"
+	"widgets.hpp"
+	"counter.hpp"
+	"background.hpp"
+	"dropdownmenu.hpp"
+	"button.h"
+	"iostream"
+
+1677893378 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando3\amõba\teljesversion\include\graphics.hpp
+	<string>
+	<vector>
+
+1684364776 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando3\amõba\teljesversion\widgets.hpp
+	"graphics.hpp"
+
+1682971455 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando3\amõba\teljesversion\counter.hpp
+	"widgets.hpp"
+
+1682966653 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando3\amõba\teljesversion\background.hpp
+	<vector>
+	"widgets.hpp"
+	<fstream>
+
+1682980766 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando3\amõba\teljesversion\dropdownmenu.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<vector>
+
+1684364602 c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando3\amõba\teljesversion\button.h
+	"graphics.hpp"
+	"widgets.hpp"
+
+1684364765 source:c:\users\bbbb\desktop\ppkeitk\bevprog2\beadando3\amõba\teljesversion\button.cpp
+	"button.h"
+	"graphics.hpp"
+	"iostream"
+
