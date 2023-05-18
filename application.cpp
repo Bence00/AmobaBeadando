@@ -1,9 +1,10 @@
 #include "application.hpp"
 #include "widgets.hpp"
 #include "graphics.hpp"
+#include "vector"
 #include "iostream"
 
-static const int WindowWidth = 800;
+static const int WindowWidth = 25 * 15;
 static const int WindowHeight = 600;
 
 Application::Application(){
@@ -43,16 +44,31 @@ void Application::Start()
 }
 void Application::Setup()
 {
-
     genv::gout.open(WindowWidth,WindowHeight);
+
+    for(int x = 0; x<MapSize;x++)
+    {
+        for(int y = 0; y<MapSize;y++)
+        {
+            fields[x][y] = new Field(this, 25 * x, 25 * y + 1);
+        }
+    }
 }
 void Application::Draw()
 {
-     for (Widget* w : widgets)
+    for (Widget* w : widgets)
+    {
+        w->draw();
+    }
+    for(int x = 0; x<MapSize;x++)
+    {
+        for(int y = 0; y<MapSize;y++)
         {
-            w->draw();
+            fields[x][y]->draw();
         }
-        genv::gout << genv::refresh;
+    }
+    genv::gout << genv::refresh;
+
 }
 void Application::Logic()
 {

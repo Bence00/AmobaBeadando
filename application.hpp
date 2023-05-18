@@ -1,13 +1,15 @@
 #pragma once
-
 #include <vector>
 #include "widgets.hpp"
+#include "Field.h"
 #include <fstream>
 
 class Application
 {
 private:
+    static const int MapSize = 15;
     std::vector<Widget*> widgets;
+    Field* fields[MapSize][MapSize];
     void Update();
     void Setup();
     void Draw();

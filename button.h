@@ -1,6 +1,4 @@
 #pragma once
-
-#include "graphics.hpp"
 #include "widgets.hpp"
 
 class Button : public Widget {
