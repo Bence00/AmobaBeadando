@@ -5,7 +5,7 @@
 class Field : public Widget {
 private:
     int ColorManagment;
-    bool BusyField;
+    bool isBusy;
     bool PlayerOne;
 
 
@@ -30,5 +30,11 @@ public:
     int GetPosY()
     {
         return _y;
+    }
+    bool GetIsBusy(){
+        return isBusy;
+    }
+    void SetIsBusy(bool isBusy){
+        this->isBusy = isBusy;
     }
  };

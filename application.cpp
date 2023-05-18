@@ -8,9 +8,10 @@
 
 static const int WindowWidth = Field::SIZE * Application::GetMapSize();
 static const int WindowHeight = Field::SIZE * Application::GetMapSize() + Application::GetInfoBarSize();
+static bool isPlayerX;
 
 Application::Application(){
-
+ isPlayerX = true;
 }
 
 void Application::Update()
@@ -31,6 +32,34 @@ void Application::Update()
                 }
                 focus = -1;
             }
+
+            for (int x = 0; x < MapSize; x++)
+            {
+                for (int y = 0; y < MapSize; y++)
+                {
+                    Field* selectedField = fields[x][y];
+                    if (selectedField->is_selected(ev.pos_x, ev.pos_y)) {
+                        if (!selectedField->GetIsBusy()) {
+                            int xPos = Field::SIZE * x;
+                            int yPos = Field::SIZE * y;
+                            RenderUtility* r = new RenderUtility();
+                            std::function<void()> renderMethod;
+                            if (isPlayerX)
+                            {
+                                renderMethod = [r, xPos, yPos]() {r->DrawX(xPos, yPos, Field::SIZE); };
+                            }
+                            else
+                            {
+                                renderMethod = [r, xPos, yPos]() {r->DrawCircle(xPos, yPos, Field::SIZE); };
+                            }
+                            selectedField->SetRender(renderMethod);
+                            selectedField->SetIsBusy(true);
+                            isPlayerX = !isPlayerX;
+                        }
+                        break;
+                    }
+                }
+            }
         }
         if (focus != -1)
         {
@@ -39,14 +68,7 @@ void Application::Update()
 
         Logic();
         Draw();
-        if (ev.type == ev_mouse && ev.button==btn_right)
-        {
-            RenderUtility* r = new RenderUtility();
-            Field* field = fields[0][0];
-            field->SetRender([r, field](){r->DrawX(field->GetPosX(), field->GetPosY(), field->SIZE);});
-        }
     }
-
 }
 void Application::Start()
 {
@@ -61,7 +83,12 @@ void Application::Setup()
     {
         for(int y = 0; y<MapSize;y++)
         {
-            fields[x][y] = new Field(this, Field::SIZE * x, Field::SIZE * y, [this](){this->;});
+            int xPos = Field::SIZE * x;
+            int yPos = Field::SIZE * y;
+            RenderUtility* r = new RenderUtility();
+            std::function<void()> renderMethod = [r, xPos, yPos]() {r->DrawBlank(xPos, yPos, Field::SIZE);};;
+            fields[x][y] = new Field(this, xPos, yPos, renderMethod);
+
         }
     }
     Draw();
@@ -74,9 +101,9 @@ void Application::Draw()
     {
         w->draw();
     }
-    for(int x = 0; x<MapSize;x++)
+    for(int x = 0; x < MapSize; x++)
     {
-        for(int y = 0; y<MapSize;y++)
+        for(int y = 0; y < MapSize; y++)
         {
             fields[x][y]->draw();
         }
@@ -87,8 +114,5 @@ void Application::Draw()
 void Application::Logic()
 {
 
-}
-void Application::test(std::string str){
-    std::cout<<str<<std::endl;
 }
 

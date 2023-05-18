@@ -9,11 +9,9 @@ class Application
 {
 private:
     std::vector<Widget*> widgets;
-
-    static const int InfoBarSize = 50;
     static const int MapSize = 15;
+    static const int InfoBarSize = 50;
     Field* fields[MapSize][MapSize];
-
     void Update();
     void Setup();
     void Draw();
@@ -34,12 +32,7 @@ public:
     {
         return MapSize;
     }
-
-
-    //virtual ~Application();
-
     void Start();
-    void test(std::string str);
 
 };
 
