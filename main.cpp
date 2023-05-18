@@ -7,10 +7,7 @@
 
 int main()
 {
-   genv::gout.open(800,600);
-
-   Window w;
-   w.event_loop();
-
+    Application* application = new Application();
+    application->Start();
    return 0;
 }

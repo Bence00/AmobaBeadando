@@ -2,7 +2,6 @@
 #include "graphics.hpp"
 #include "iostream"
 
-
 Button::Button(Application * w,int x, int y, int sx, int sy)
                  : Widget(w,x, y, sx, sy)
 {

@@ -8,6 +8,10 @@ class Application
 {
 private:
     std::vector<Widget*> widgets;
+    void Update();
+    void Setup();
+    void Draw();
+    void Logic();
 public:
     void RegisterWidget (Widget *w)
     {
@@ -17,7 +21,6 @@ public:
 
     //virtual ~Application();
 
-    void update();
     void Start();
 
 };

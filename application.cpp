@@ -3,19 +3,19 @@
 #include "graphics.hpp"
 #include "iostream"
 
-void Application::event_loop()
+static const int WindowWidth = 800;
+static const int WindowHeight = 600;
+
+Application::Application(){
+}
+
+void Application::Update()
 {
     using namespace genv;
     event ev;
     int focus = -1;
     while(gin >> ev && ev.keycode != key_escape)
     {
-
-        for (Widget* w : widgets)
-        {
-            w->draw();
-        }
-
         if (ev.type == ev_mouse && ev.button==btn_left)
         {
             for (size_t i=0;i<widgets.size();i++)
@@ -32,9 +32,30 @@ void Application::event_loop()
         {
             widgets[focus]->handle(ev);
         }
-
-        gout << refresh;
+        Logic();
+        Draw();
     }
 }
+void Application::Start()
+{
+    Setup();
+    Update();
+}
+void Application::Setup()
+{
 
+    genv::gout.open(WindowWidth,WindowHeight);
+}
+void Application::Draw()
+{
+     for (Widget* w : widgets)
+        {
+            w->draw();
+        }
+        genv::gout << genv::refresh;
+}
+void Application::Logic()
+{
+
+}
 

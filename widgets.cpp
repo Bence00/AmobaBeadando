@@ -1,15 +1,14 @@
 #include "widgets.hpp"
 #include "graphics.hpp"
-#include "background.hpp"
+#include "application.hpp"
 
-Widget::Widget(Application * w, int x, int y, int sx, int sy) : _ptr(ptr)
+Widget::Widget(Application * w, int x, int y, int sx, int sy) : _w(w)
 {
     w->RegisterWidget(this);
     _x=x;
     _y=y;
     _size_x=sx;
     _size_y=sy;
-
 }
 
 bool Widget::is_selected(int mouse_x, int mouse_y)
