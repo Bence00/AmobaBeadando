@@ -45,8 +45,18 @@
 			<Add library="dxguid" />
 			<Add directory="lib" />
 		</Linker>
+		<Unit filename="ColorMap.cpp" />
+		<Unit filename="ColorMap.h" />
+		<Unit filename="Field.cpp" />
+		<Unit filename="Field.h" />
+		<Unit filename="application.cpp" />
+		<Unit filename="application.hpp" />
+		<Unit filename="button.cpp" />
+		<Unit filename="button.h" />
 		<Unit filename="graphicslib/graphics.cpp" />
 		<Unit filename="main.cpp" />
+		<Unit filename="widgets.cpp" />
+		<Unit filename="widgets.hpp" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>

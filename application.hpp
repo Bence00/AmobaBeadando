@@ -2,14 +2,18 @@
 #include <vector>
 #include "widgets.hpp"
 #include "Field.h"
+#include "ColorMap.h"
 #include <fstream>
 
 class Application
 {
 private:
-    static const int MapSize = 15;
     std::vector<Widget*> widgets;
+
+    static const int InfoBarSize = 50;
+    static const int MapSize = 15;
     Field* fields[MapSize][MapSize];
+
     void Update();
     void Setup();
     void Draw();
@@ -21,9 +25,21 @@ public:
     }
     Application();
 
+    static int GetInfoBarSize()
+    {
+        return InfoBarSize;
+    }
+
+    static int GetMapSize()
+    {
+        return MapSize;
+    }
+
+
     //virtual ~Application();
 
     void Start();
+    void test(std::string str);
 
 };
 
