@@ -42,21 +42,7 @@ void RenderUtility::DrawBlank(int _x, int _y, int _size)
     gout << move_to(_x + 1, _y + 1) << color(1,150,0) << box(_size-2, _size-2);
 
 }
-void RenderUtility::DrawCircleWin(int WindowCenterX, int WindowCenterY, int _size)
-{
-    using namespace genv;
 
-    gout<<move_to(WindowCenterX,WindowCenterY)<<color(0,0,0)<<box(2*_size,_size)
-        <<move_to(WindowCenterX+1,WindowCenterY+1)<<color(100,100,100)<<box(2*_size-2,_size-2);
-
-}
-void RenderUtility::DrawXWin(int WindowCenterX, int WindowCenterY, int _size)
-{
-    using namespace genv;
-
-    gout<<move_to(WindowCenterX,WindowCenterY)<<color(100,100,100)<<box(2*_size,_size)
-        <<move_to(WindowCenterX+1,WindowCenterY+1)<<color(0,0,0)<<box(2*_size-2,_size-2);
-}
 
 
 

@@ -4,13 +4,14 @@
 #include "application.hpp"
 #include "RenderUtility.h"
 #include <typeinfo>
+#include "Menu.h"
 
 static const int WindowWidth = Field::SIZE * Application::GetMapSize();
-static const int WindowHeight = Field::SIZE * Application::GetMapSize() + Application::GetInfoBarSize();
+static const int WindowHeight = Field::SIZE * Application::GetMapSize();
 
 Application::Application()
 {
-    FieldNumberToWin = 5;
+    FieldNumberToWin = 2;
 }
 void Application::Update()
 {
@@ -18,12 +19,12 @@ void Application::Update()
 
     event ev;
 
-    //int focus = -1;
+    int focus = -1;
     while(gin >> ev && ev.keycode != key_escape)
     {
         if (ev.type == ev_mouse && ev.button == btn_left)
         {
-           /* for (size_t i=0;i<widgets.size();i++)
+           for (size_t i=0;i<widgets.size();i++)
             {
                 if (widgets[i]->is_selected(ev.pos_x, ev.pos_y))
                 {
@@ -31,41 +32,43 @@ void Application::Update()
                     break;
                 }
                 focus = -1;
-            }*/
-            for (int x = 0; x < MapSize; x++)
-            {
-                for (int y = 0; y < MapSize; y++)
+            }
+            if (isRunning) {
+                for (int x = 0; x < MapSize; x++)
                 {
-                    Field* selectedField = fields[x][y];
-                    if (selectedField->is_selected(ev.pos_x, ev.pos_y))
+                    for (int y = 0; y < MapSize; y++)
                     {
-                        if (!selectedField->GetIsBusy())
+                        Field* selectedField = fields[x][y];
+                        if (selectedField->is_selected(ev.pos_x, ev.pos_y))
                         {
-                            int xPos = Field::SIZE * x;
-                            int yPos = Field::SIZE * y;
-
-                            RenderUtility* r = new RenderUtility();
-
-                            if (isPlayerX)
+                            if (!selectedField->GetIsBusy())
                             {
-                                renderMethod = [r, xPos, yPos]() {r->DrawX(xPos, yPos, Field::SIZE); };
-                            }
-                            else
-                            {
-                                renderMethod = [r, xPos, yPos]() {r->DrawCircle(xPos, yPos, Field::SIZE);};
-                            }
+                                int xPos = Field::SIZE * x;
+                                int yPos = Field::SIZE * y;
 
-                            selectedField->SetRender(renderMethod);
-                            selectedField->SetIsBusy(true);
+                                RenderUtility* r = new RenderUtility();
 
-                            isPlayerX = !isPlayerX;
+                                if (isPlayerX)
+                                {
+                                    renderMethod = [r, xPos, yPos]() {r->DrawX(xPos, yPos, Field::SIZE); };
+                                }
+                                else
+                                {
+                                    renderMethod = [r, xPos, yPos]() {r->DrawCircle(xPos, yPos, Field::SIZE);};
+                                }
+
+                                selectedField->SetRender(renderMethod);
+                                selectedField->SetIsBusy(true);
+
+                                isPlayerX = !isPlayerX;
+                            }
+                            break;
                         }
-                        break;
                     }
                 }
+                Logic();
             }
         }
-        Logic();
         Draw();
     }
 }
@@ -88,7 +91,7 @@ void Application::Logic()
             }
             if (isWinningRow)
             {
-                isPlayerX ? (std::cout<<"O Win"<<std::endl) : (std::cout<<"X Win"<<std::endl)
+                Win();
                 return;
             }
         }
@@ -110,7 +113,7 @@ void Application::Logic()
             }
             if (isWinningColumn)
             {
-               std::cout<<"WINNING COLUMN"<<std::endl;
+               Win();
                return;
             }
         }
@@ -132,7 +135,7 @@ void Application::Logic()
             }
             if (isWinningDiagonal)
             {
-                 std::cout<<"WINNING DIAGONAL1"<<std::endl;
+                Win();
                 return;
             }
         }
@@ -155,7 +158,7 @@ void Application::Logic()
             }
             if (isWinningDiagonal)
             {
-               std::cout<<"WINNING DIAGONAL2"<<std::endl;
+               Win();
                return;
             }
         }
@@ -182,12 +185,12 @@ void Application::Logic()
 }
 void Application::Start()
 {
+    genv::gout.open(WindowWidth,WindowHeight);
     Setup();
     Update();
 }
 void Application::Setup()
 {
-    genv::gout.open(WindowWidth,WindowHeight);
 
     for(int x = 0; x<MapSize;x++)
     {
@@ -202,7 +205,7 @@ void Application::Setup()
             fields[x][y] = new Field(this, xPos, yPos, renderMethod);
         }
     }
-
+    isRunning = true;
     Draw();
 
     //ColorMap* colormap;
@@ -216,4 +219,21 @@ void Application::Draw()
     }
     genv::gout << genv::refresh;
 }
-
+void Application::Win()
+{
+    isPlayerX ? (std::cout<<"O Win"<<std::endl) : (std::cout<<"X Win"<<std::endl);
+    Menu* a = new Menu(this,WindowWidth/4,WindowHeight/4,WindowWidth/2,WindowHeight/2,100,isPlayerX);
+    isRunning = false;
+    //Reset();
+}
+void Application::Reset()
+{
+    widgets.clear();
+    for (int i = 0; i < MapSize; ++i) {
+        for (int j = 0; j < MapSize; ++j) {
+            delete fields[i][j];
+        }
+    }
+    Setup();
+    //delete[] fields;
+}

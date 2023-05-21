@@ -7,7 +7,6 @@
 
 Field::Field(Application * w,int x, int y, std::function<void()> _render) : Widget(w, x, y, SIZE, SIZE)
 {
-
     isBusy = false;
     render = _render;
 }
