@@ -8,7 +8,7 @@ class Widget{
 protected:
 
     int _x, _y, _size_x, _size_y;
-    Application * _w;
+    Application* _w;
 
 public:
     Widget(Application * w,int x, int y, int sx, int sy);

@@ -11,7 +11,7 @@ static const int WindowHeight = Field::SIZE * Application::GetMapSize();
 
 Application::Application()
 {
-    FieldNumberToWin = 2;
+    FieldNumberToWin = 5;
 }
 void Application::Update()
 {
@@ -24,7 +24,7 @@ void Application::Update()
     {
         if (ev.type == ev_mouse && ev.button == btn_left)
         {
-           for (size_t i=0;i<widgets.size();i++)
+           for (size_t i=widgets.size()-1; i>=0; i--)
             {
                 if (widgets[i]->is_selected(ev.pos_x, ev.pos_y))
                 {
@@ -32,6 +32,9 @@ void Application::Update()
                     break;
                 }
                 focus = -1;
+            }
+            if (focus != -1){
+                widgets[focus]->handle(ev);
             }
             if (isRunning) {
                 for (int x = 0; x < MapSize; x++)
@@ -150,7 +153,6 @@ void Application::Logic()
             {
                 Field* field = fields[x - i][y + i];
                 if (!field->GetIsBusy() || field->GetRender().target_type() != renderMethod.target_type())
-
                 {
                     isWinningDiagonal = false;
                     break;
@@ -179,7 +181,6 @@ void Application::Logic()
     }
     if (isDraw)
     {
-        std::cout<<"DRAW"<<std::endl;
         return;
     }
 }
@@ -221,8 +222,8 @@ void Application::Draw()
 }
 void Application::Win()
 {
-    isPlayerX ? (std::cout<<"O Win"<<std::endl) : (std::cout<<"X Win"<<std::endl);
-    Menu* a = new Menu(this,WindowWidth/4,WindowHeight/4,WindowWidth/2,WindowHeight/2,100,isPlayerX);
+    widgets.clear();
+    new Menu(this,WindowWidth/20,WindowHeight/20,WindowWidth/3,WindowHeight/10,isPlayerX, [this]() {this->Reset();});
     isRunning = false;
     //Reset();
 }
@@ -235,5 +236,16 @@ void Application::Reset()
         }
     }
     Setup();
-    //delete[] fields;
 }
+
+
+
+
+
+
+
+
+
+
+
+

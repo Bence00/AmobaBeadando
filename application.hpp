@@ -18,12 +18,13 @@ private:
     void Logic();
     void Update();
     void Draw();
-    void Reset();
 
     bool isPlayerX;
     bool isRunning;
 
 public:
+    void Reset();
+
     int score[2];
     int FieldNumberToWin;
 

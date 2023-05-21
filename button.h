@@ -1,18 +1,13 @@
 #pragma once
+#include <functional>
 #include "widgets.hpp"
 
 class Button : public Widget {
 private:
-
-    int _value;
-    int _checker;
-    bool asd;
-
-
+    std::function<void()> _f;
 public:
-    Button(Application * ptr,int x, int y, int sx, int sy);
+    Button(Application* w,int x, int y, int sx, int sy, std::function<void()> f);
     void handle(genv::event ev);
     void draw();
-
- };
+};
 
