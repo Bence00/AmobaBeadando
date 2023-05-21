@@ -24,7 +24,7 @@ void Application::Update()
     {
         if (ev.type == ev_mouse && ev.button == btn_left)
         {
-           for (size_t i=widgets.size()-1; i>=0; i--)
+           for (size_t i = widgets.size() -1; i >= 0; i--)
             {
                 if (widgets[i]->is_selected(ev.pos_x, ev.pos_y))
                 {
@@ -222,8 +222,9 @@ void Application::Draw()
 }
 void Application::Win()
 {
+    score[!isPlayerX]++;
     widgets.clear();
-    new Menu(this,WindowWidth/20,WindowHeight/20,WindowWidth/3,WindowHeight/10,isPlayerX, [this]() {this->Reset();});
+    new Menu(this,WindowWidth/15,WindowHeight/15,WindowWidth/3,WindowHeight/5,isPlayerX, [this]() {this->Reset();});
     isRunning = false;
     //Reset();
 }
