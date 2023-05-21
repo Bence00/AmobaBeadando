@@ -17,7 +17,5 @@ public:
     virtual void handle(genv::event ev) = 0;
 
     bool is_selected(int mouse_x, int mouse_y);
-
-
 };
 

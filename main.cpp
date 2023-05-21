@@ -4,7 +4,6 @@
 #include "button.h"
 #include "iostream"
 
-
 int main()
 {
     Application* application = new Application();

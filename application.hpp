@@ -1,22 +1,32 @@
 #pragma once
-#include <vector>
 #include "widgets.hpp"
 #include "Field.h"
 #include "ColorMap.h"
-#include <fstream>
 
 class Application
 {
 private:
+
     std::vector<Widget*> widgets;
+    std::function<void()> renderMethod;
+
     static const int MapSize = 15;
-    static const int InfoBarSize = 50;
+    static const int InfoBarSize = 10;
+
     Field* fields[MapSize][MapSize];
-    void Update();
+
     void Setup();
-    void Draw();
     void Logic();
+    void Update();
+    void Draw();
+
+    bool isPlayerX;
+
 public:
+
+    int FieldNumberToWin;
+
+    void Start();
     void RegisterWidget (Widget *w)
     {
         widgets.push_back(w);
@@ -32,7 +42,7 @@ public:
     {
         return MapSize;
     }
-    void Start();
+
 
 };
 

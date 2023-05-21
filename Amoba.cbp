@@ -49,6 +49,8 @@
 		<Unit filename="ColorMap.h" />
 		<Unit filename="Field.cpp" />
 		<Unit filename="Field.h" />
+		<Unit filename="RenderUtility.cpp" />
+		<Unit filename="RenderUtility.h" />
 		<Unit filename="application.cpp" />
 		<Unit filename="application.hpp" />
 		<Unit filename="button.cpp" />
